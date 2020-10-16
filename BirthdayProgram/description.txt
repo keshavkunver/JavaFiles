@@ -1,0 +1,15 @@
+Write a program to get user’s age and a boolean value to check if it’s his/her
+birthday. 
+
+If the user says it’s his birthday - increase his age by 1. 
+
+Now,based on user’s age print just one statement by checking these
+conditions:
+
+1. If the user’s age is less than or equal to 18, print “User is 18 or
+younger”
+2. If user’s age is greater than 18 and less than 40, print “User is
+between 19 and 39”
+3. If user’s age is equal to either 45 or 50, print “User is either 45 or
+50”
+4. Otherwise, print “User is older than 40”
