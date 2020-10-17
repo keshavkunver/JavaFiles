@@ -1,0 +1,5 @@
+Implemented a Person Class that is a blueprint of person’s attributes and behaviors. 
+
+Also created a Fitness class that contains the main function and 4 person (Parks and Recreation characters) objects. 
+
+Printed each person’s name, BMI and BMI level.
