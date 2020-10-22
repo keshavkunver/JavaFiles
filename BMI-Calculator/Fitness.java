@@ -14,10 +14,15 @@ public class Fitness
 		//object 4
 		Person april = new Person("April","Ludgate",110.5,5,5);
 
-		//print each person's BMI information
-		System.out.println("Tom: " + tom.calculateBMI());
-		System.out.println("Leslie: " + leslie.calculateBMI());
-		System.out.println("Ron: " + ron.calculateBMI());
-		System.out.println("April: " + april.calculateBMI());
+		//print each person's BMI information using toString() method
+		System.out.println(tom.toString());
+		System.out.println(leslie.toString());
+		System.out.println(ron.toString());
+		System.out.println(april.toString());
+
+		//System.out.println(tom.getFirstName() + ": " + tom.calculateBMI());
+		//System.out.println(leslie.getFirstName() + ": " + leslie.calculateBMI());
+		//System.out.println(ron.getFirstName() + ": " + ron.calculateBMI());
+		//System.out.println(april.getFirstName() + ": " + april.calculateBMI());
 	}
 }

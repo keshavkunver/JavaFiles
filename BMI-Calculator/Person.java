@@ -101,36 +101,41 @@ public class Person
 		this.firstName = firstName;
 	}
 
-	public void getLastName(String lastName)
+	public void setLastName(String lastName)
 	{
 		this.lastName = lastName;
 	}
 
-	public void getLastNameInitial(char lastNameInitial)
+	public void setLastNameInitial(char lastNameInitial)
 	{
 		this.lastNameInitial = lastNameInitial;
 	}
 
-	public void getAge(int age)
+	public void setAge(int age)
 	{
 		this.age = age;
 	}
 
-	public void getWeight(double weight)
+	public void setWeight(double weight)
 	{
 		this.weight = weight;
 	}
 
-	public void getFeet(int feet)
+	public void setFeet(int feet)
 	{
 		this.feet = feet;
 	}
 
-	public void getInches(int inches)
+	public void setInches(int inches)
 	{
 		this.inches = inches;
 	}
 
+	@Override
+	public String toString()
+	{
+		return this.firstName + ": " + this.calculateBMI();
+	}
 	//function to calculate person's BMI
 	public String calculateBMI()
 	{
