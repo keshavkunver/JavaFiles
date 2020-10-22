@@ -1,3 +1,10 @@
+/**
+
+* Commenting out since we are now using Online 'main' function
+
+
+
+
 import java.util.Scanner;
 
 public class Shop
@@ -57,6 +64,7 @@ public class Shop
 				*
 				*/
 
+				/**
 				//try to get user input and make sure it is an integer
 				try
 				{
@@ -98,3 +106,4 @@ public class Shop
 		
 	}
 }
+*/
